@@ -1,0 +1,1557 @@
+@import "reset.css";
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide p {
+  display: none;
+}
+.swiper-slide-active p {
+  display: block;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  background: url(../images/109@2x.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.page .next {
+  width: 23.3%;
+  height: 5.5%;
+  background: url(../images/101@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 85%;
+  -webkit-animation: move 1s 3.5s infinite;
+}
+.page1 p {
+  position: absolute;
+}
+.page1 .phone {
+  width: 59%;
+  height: 72%;
+  background: url(../images/bg.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 8%;
+}
+.page1 .yangcong {
+  width: 21%;
+  height: 19%;
+  background: url(../images/102@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 18.6%;
+}
+.page1 .quan {
+  width: 46.2%;
+  height: 13.9%;
+  background: url(../images/106@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 43.5%;
+  -webkit-animation-delay: 2s;
+}
+.page1 .dates {
+  width: 27.4%;
+  height: 13.9%;
+  background: url(../images/104@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 46.2%;
+  -webkit-animation-delay: 2s;
+}
+.page1 .jiantou {
+  width: 3.2%;
+  height: 1.6%;
+  background: url(../images/105@2x.png) no-repeat;
+  background-size: contain;
+  left: 38%;
+  top: 55.8%;
+  -webkit-animation-delay: 2s;
+}
+.page1 .xinpin {
+  width: 51%;
+  height: 9%;
+  background: url(../images/107@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 58.6%;
+  -webkit-animation: Left 1s 0.1s;
+}
+.page1 .txt {
+  width: 31.7%;
+  height: 4%;
+  background: url(../images/103@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 60.9%;
+  -webkit-animation: Left 1s 0.1s;
+}
+.page2 p {
+  position: absolute;
+}
+.page2 .qipao1 {
+  width: 79%;
+  height: 22%;
+  background: url(../images/214@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 9%;
+}
+.page2 .textTop {
+  width: 61.9%;
+  height: 4.5%;
+  background: url(../images/208@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 16.8%;
+}
+.page2 .textBottom {
+  width: 25.5%;
+  height: 3.1%;
+  background: url(../images/207@2x.png) no-repeat;
+  background-size: contain;
+  right: 13.4%;
+  top: 24.7%;
+}
+.page2 .line1 {
+  width: 10.5%;
+  height: 0.5%;
+  background: url(../images/211@2x.png) no-repeat;
+  background-size: contain;
+  left: 61.5%;
+  top: 28%;
+  -webkit-animation-delay: 0.5s;
+}
+.page2 .line2 {
+  width: 4.5%;
+  height: 6.8%;
+  background: url(../images/213@2x.png) no-repeat;
+  background-size: contain;
+  left: 62.5%;
+  top: 28.4%;
+  -webkit-animation-delay: 0.8s;
+}
+.page2 .jiantou {
+  width: 3.6%;
+  height: 2.6%;
+  background: url(../images/212@2x.png) no-repeat;
+  background-size: contain;
+  left: 62%;
+  top: 33%;
+  -webkit-animation-delay: 1s;
+}
+.page2 .qipao2 {
+  width: 63%;
+  height: 9.8%;
+  background: url(../images/210@2x.png) no-repeat;
+  background-size: contain;
+  left: 7.6%;
+  top: 3.8%;
+}
+.page2 .text2 {
+  width: 50.2%;
+  height: 9.8%;
+  background: url(../images/209@2x.png) no-repeat;
+  background-size: contain;
+  left: 13.1%;
+  top: 7.4%;
+}
+.page2 .zhanghu {
+  width: 50.2%;
+  height: 5.9%;
+  background: url(../images/204@2x.png) no-repeat;
+  background-size: contain;
+  left: 16.2%;
+  top: 36.2%;
+  -webkit-animation-delay: 1.3s;
+}
+.page2 .mima {
+  width: 49%;
+  height: 6.2%;
+  background: url(../images/205@2x.png) no-repeat;
+  background-size: contain;
+  left: 35.4%;
+  top: 44%;
+  -webkit-animation-delay: 1.6s;
+}
+.page2 .wangji {
+  width: 56.2%;
+  height: 6.6%;
+  background: url(../images/206@2x.png) no-repeat;
+  background-size: contain;
+  left: 21.1%;
+  top: 51.4%;
+  -webkit-animation-delay: 1.9s;
+}
+.page2 .hunluan {
+  width: 35.8%;
+  height: 4.2%;
+  background: url(../images/201@2x.png) no-repeat;
+  background-size: contain;
+  left: 3.1%;
+  top: 59.6%;
+  -webkit-animation-delay: 2.1s;
+}
+.page2 .buanquan {
+  width: 50.3%;
+  height: 4.7%;
+  background: url(../images/203@2x.png) no-repeat;
+  background-size: contain;
+  left: 39.5%;
+  top: 61.7%;
+  -webkit-animation-delay: 2.1s;
+}
+.page2 .beidao {
+  width: 42%;
+  height: 5%;
+  background: url(../images/202@2x.png) no-repeat;
+  background-size: contain;
+  left: 22.6%;
+  top: 68%;
+  -webkit-animation-delay: 2.7s;
+}
+.page3 p {
+  position: absolute;
+}
+.page3 .chuangzao {
+  width: 78.7%;
+  height: 6%;
+  background: url(../images/320@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 8.8%;
+}
+.page3 .pinyin {
+  width: 23%;
+  height: 2.5%;
+  background: url(../images/314@2x.png) no-repeat;
+  background-size: contain;
+  left: 32%;
+  top: 5.7%;
+  -webkit-animation-delay: 0.5s;
+}
+.page3 .shengdiao {
+  width: 2%;
+  height: 0.8%;
+  background: url(../images/312@2x.png) no-repeat;
+  background-size: contain;
+  left: 38%;
+  top: 5.4%;
+  -webkit-animation-delay: 0.9s;
+}
+.page3 .shengdiao1 {
+  width: 2%;
+  height: 0.8%;
+  background: url(../images/312@2x.png) no-repeat;
+  background-size: contain;
+  left: 49%;
+  top: 5.4%;
+  -webkit-animation-delay: 0.9s;
+}
+.page3 .yanzheng {
+  width: 68.7%;
+  height: 2.8%;
+  background: url(../images/317@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 16%;
+  -webkit-animation-delay: 1.5s;
+}
+.page3 .renLine {
+  width: 69%;
+  height: 0.2%;
+  background: url(../images/315@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 19%;
+  -webkit-animation-delay: 2s;
+}
+.page3 .renLine1 {
+  width: 69%;
+  height: 0.2%;
+  background: url(../images/315@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 19.4%;
+  -webkit-animation-delay: 2s;
+}
+.page3 .quan {
+  width: 90.5%;
+  height: 18%;
+  background: url(../images/321@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 27%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .shiyong {
+  width: 78%;
+  height: 2.9%;
+  background: url(../images/319@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 32.9%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .renmen {
+  width: 46.7%;
+  height: 2.8%;
+  background: url(../images/318@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 39%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .bg1 {
+  width: 64.4%;
+  height: 27.6%;
+  background: url(../images/311@2x.png) no-repeat;
+  background-size: 100%;
+  right: 14%;
+  top: 51%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .bg2 {
+  width: 64.4%;
+  height: 27.6%;
+  background: url(../images/310@2x.png) no-repeat;
+  background-size: 100%;
+  left: 19.8%;
+  top: 50%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .xiaoshouji {
+  width: 29%;
+  height: 23.2%;
+  background: url(../images/309@2x.png) no-repeat;
+  background-size: 100%;
+  left: 57.1%;
+  top: 47.3%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .xyangcong {
+  width: 10%;
+  height: 7.6%;
+  background: url(../images/301@2x.png) no-repeat;
+  background-size: 100%;
+  right: 22.9%;
+  top: 53%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .renlian {
+  width: 20%;
+  height: 2.8%;
+  background: url(../images/305@2x.png) no-repeat;
+  background-size: 100%;
+  left: 26%;
+  top: 53.3%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .zhiwen {
+  width: 20%;
+  height: 2.8%;
+  background: url(../images/304@2x.png) no-repeat;
+  background-size: 100%;
+  left: 26%;
+  top: 60%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .shengyin {
+  width: 20%;
+  height: 2.8%;
+  background: url(../images/302@2x.png) no-repeat;
+  background-size: 100%;
+  left: 26%;
+  top: 68%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .line1 {
+  width: 25%;
+  height: 7.5%;
+  background: url(../images/308@2x.png) no-repeat;
+  background-size: 100%;
+  left: 47.9%;
+  top: 48%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .line2 {
+  width: 17.9%;
+  height: 4.7%;
+  background: url(../images/307@2x.png) no-repeat;
+  background-size: 100%;
+  left: 47.9%;
+  top: 61.6%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .line3 {
+  width: 12.7%;
+  height: 2.4%;
+  background: url(../images/306@2x.png) no-repeat;
+  background-size: 100%;
+  left: 47.9%;
+  top: 67%;
+  -webkit-animation-delay: 2.8s;
+}
+.page3 .zong {
+  width: 23.5%;
+  height: 1.7%;
+  background: url(../images/303@2x.png) no-repeat;
+  background-size: 100%;
+  right: 19.5%;
+  top: 73%;
+  -webkit-animation-delay: 3.2s;
+}
+.page4 p {
+  position: absolute;
+}
+.page4 .xuanze {
+  width: 78.7%;
+  height: 6%;
+  background: url(../images/431@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 8.8%;
+}
+.page4 .pinyin {
+  width: 17%;
+  height: 1.3%;
+  background: url(../images/406@2x.png) no-repeat;
+  background-size: contain;
+  left: 33.5%;
+  top: 6.5%;
+  -webkit-animation-delay: 0.5s;
+}
+.page4 .sansheng {
+  width: 2%;
+  height: 0.8%;
+  background: url(../images/405@2x.png) no-repeat;
+  background-size: contain;
+  left: 35.5%;
+  top: 5.5%;
+  -webkit-animation-delay: 1s;
+}
+.page4 .ersheng {
+  width: 2%;
+  height: 0.8%;
+  background: url(../images/404@2x.png) no-repeat;
+  background-size: contain;
+  left: 48.6%;
+  top: 5.5%;
+  -webkit-animation-delay: 1s;
+}
+.page4 .yonghu {
+  width: 68.7%;
+  height: 2.8%;
+  background: url(../images/403@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 16%;
+  -webkit-animation-delay: 1.5s;
+}
+.page4 .line1 {
+  width: 69%;
+  height: 0.2%;
+  background: url(../images/315@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 19%;
+  -webkit-animation-delay: 2s;
+}
+.page4 .line2 {
+  width: 69%;
+  height: 0.2%;
+  background: url(../images/315@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 19.4%;
+  -webkit-animation-delay: 2s;
+}
+.page4 .zhi {
+  width: 93%;
+  height: 57%;
+  background: url(../images/430@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 21.8%;
+  -webkit-animation-delay: 2.8s;
+}
+.page4 .zTop {
+  width: 92.8%;
+  height: 4%;
+  background: url(../images/408@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 21%;
+  -webkit-animation-delay: 2.8s;
+}
+.page4 .zBottom {
+  width: 92.5%;
+  height: 2.4%;
+  background: url(../images/407@2x.png) no-repeat;
+  background-size: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 75%;
+  -webkit-animation-delay: 2.8s;
+}
+.page4 .img1 {
+  width: 22.7%;
+  height: 5%;
+  background: url(../images/424@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 29%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img2 {
+  width: 21.3%;
+  height: 7.7%;
+  background: url(../images/421@2x.png) no-repeat;
+  background-size: 100%;
+  left: 40%;
+  top: 28%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img3 {
+  width: 24%;
+  height: 3.3%;
+  background: url(../images/419@2x.png) no-repeat;
+  background-size: 100%;
+  left: 66.8%;
+  top: 30%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img4 {
+  width: 22%;
+  height: 3.3%;
+  background: url(../images/422@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 36.9%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img5 {
+  width: 23.9%;
+  height: 5%;
+  background: url(../images/415@2x.png) no-repeat;
+  background-size: 100%;
+  left: 40%;
+  top: 36.6%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img6 {
+  width: 25%;
+  height: 5.7%;
+  background: url(../images/410@2x.png) no-repeat;
+  background-size: 100%;
+  left: 66.8%;
+  top: 36.9%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img7 {
+  width: 20.7%;
+  height: 4%;
+  background: url(../images/427@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 42.7%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img8 {
+  width: 16.7%;
+  height: 5%;
+  background: url(../images/423@2x.png) no-repeat;
+  background-size: 100%;
+  left: 42%;
+  top: 42%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img9 {
+  width: 22.9%;
+  height: 3.6%;
+  background: url(../images/416@2x.png) no-repeat;
+  background-size: 100%;
+  left: 66.8%;
+  top: 43.4%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img10 {
+  width: 23%;
+  height: 3.5%;
+  background: url(../images/426@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 49%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img11 {
+  width: 24%;
+  height: 3%;
+  background: url(../images/425@2x.png) no-repeat;
+  background-size: 100%;
+  left: 38.3%;
+  top: 49.5%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img12 {
+  width: 21.9%;
+  height: 2.4%;
+  background: url(../images/412@2x.png) no-repeat;
+  background-size: 100%;
+  left: 66.9%;
+  top: 49.5%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img13 {
+  width: 23.9%;
+  height: 4.8%;
+  background: url(../images/428@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 54.8%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img14 {
+  width: 24%;
+  height: 4.8%;
+  background: url(../images/429@2x.png) no-repeat;
+  background-size: 100%;
+  left: 38.3%;
+  top: 54.8%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img15 {
+  width: 24%;
+  height: 4.8%;
+  background: url(../images/417@2x.png) no-repeat;
+  background-size: 100%;
+  left: 66.9%;
+  top: 54.8%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img16 {
+  width: 22%;
+  height: 4.6%;
+  background: url(../images/409@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 61.3%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img17 {
+  width: 21.8%;
+  height: 2.6%;
+  background: url(../images/411@2x.png) no-repeat;
+  background-size: 100%;
+  left: 38.8%;
+  top: 62.4%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img18 {
+  width: 24%;
+  height: 4%;
+  background: url(../images/420@2x.png) no-repeat;
+  background-size: 100%;
+  left: 66.4%;
+  top: 61.7%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img19 {
+  width: 29.4%;
+  height: 7.3%;
+  background: url(../images/413@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.6%;
+  top: 68%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img20 {
+  width: 23.5%;
+  height: 6.9%;
+  background: url(../images/414@2x.png) no-repeat;
+  background-size: 100%;
+  left: 41.6%;
+  top: 68.5%;
+  -webkit-animation-delay: 3.5s;
+}
+.page4 .img21 {
+  width: 17.4%;
+  height: 3.4%;
+  background: url(../images/418@2x.png) no-repeat;
+  background-size: 100%;
+  left: 67.9%;
+  top: 69.3%;
+  -webkit-animation-delay: 3.5s;
+}
+.page5 {
+  /* .tubg{
+		width:36%;
+		height:17.6%;
+		background:url(../images/322@2x.png) no-repeat;
+		background-size:contain;
+		left:34%;
+		top:28%;
+	} */
+}
+.page5 p {
+  position: absolute;
+}
+.page5 .xian {
+  width: 93.6%;
+  height: 51%;
+  background: url(../images/512@2x.png) no-repeat;
+  background-size: 100%;
+  left: 4%;
+  top: 11.7%;
+}
+.page5 .danshi {
+  width: 23.7%;
+  height: 6.2%;
+  background: url(../images/506@2x.png) no-repeat;
+  background-size: 100%;
+  left: 8.7%;
+  top: 8%;
+  -webkit-animation-delay: 0.5s;
+}
+.page5 .xsj {
+  width: 25%;
+  height: 15%;
+  background: url(../images/511@2x.png) no-repeat;
+  background-size: contain;
+  left: 35.9%;
+  top: 28.5%;
+  -webkit-animation-delay: 1.5s;
+}
+.page5 .suoyi {
+  width: 24%;
+  height: 5.6%;
+  background: url(../images/504@2x.png) no-repeat;
+  background-size: 100%;
+  left: 10.9%;
+  top: 50%;
+  -webkit-animation-delay: 2.5s;
+}
+.page5 .qiye {
+  width: 77%;
+  height: 4.2%;
+  background: url(../images/505@2x.png) no-repeat;
+  background-size: 100%;
+  left: 9%;
+  top: 16%;
+  -webkit-animation-delay: 1s;
+}
+.page5 .huakuang {
+  width: 72.5%;
+  height: 10%;
+  background: url(../images/509@2x.png) no-repeat;
+  background-size: 100%;
+  left: 20.7%;
+  top: 22%;
+  -webkit-animation-delay: 1.5s;
+}
+.page5 .yingyong {
+  width: 63%;
+  height: 2.5%;
+  background: url(../images/507@2x.png) no-repeat;
+  background-size: 100%;
+  left: 24.7%;
+  top: 24.5%;
+  -webkit-animation-delay: 1.5s;
+}
+.page5 .feiji {
+  width: 34.6%;
+  height: 9.3%;
+  background: url(../images/502@2x.png) no-repeat;
+  background-size: 100%;
+  left: 25.5%;
+  top: 6%;
+  -webkit-transform: rotate(30deg);
+  -webkit-animation-delay: 1s;
+}
+.page5 .xkuang {
+  width: 62%;
+  height: 10%;
+  background: url(../images/508@2x.png) no-repeat;
+  background-size: 100%;
+  left: 25.8%;
+  top: 59%;
+  -webkit-animation-delay: 3.5s;
+}
+.page5 .fangxiang {
+  width: 51.8%;
+  height: 3%;
+  background: url(../images/503@2x.png) no-repeat;
+  background-size: 100%;
+  left: 31.9%;
+  top: 63.8%;
+  -webkit-animation-delay: 4s;
+}
+.page6 p {
+  position: absolute;
+}
+.page6 .xinpin {
+  width: 59.9%;
+  height: 7.8%;
+  background: url(../images/613@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 8%;
+}
+.page6 .quan {
+  width: 35.7%;
+  height: 6.9%;
+  background: url(../images/612@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 16.9%;
+  -webkit-animation-delay: 0.5s;
+}
+.page6 .shiwu {
+  width: 29.9%;
+  height: 2.9%;
+  background: url(../images/611@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 18.6%;
+  -webkit-animation-delay: 0.5s;
+}
+.page6 .youguan {
+  width: 44%;
+  height: 6.8%;
+  background: url(../images/606@2x.png) no-repeat;
+  background-size: contain;
+  left: 15.5%;
+  top: 29.8%;
+  -webkit-animation-delay: 1s;
+  -webkit-transition: move 0.1s 1s infinite;
+}
+.page6 .xiahuaxian {
+  width: 10%;
+  height: 1.4%;
+  background: url(../images/605@2x.png) no-repeat;
+  background-size: contain;
+  left: 39%;
+  top: 33.8%;
+  -webkit-animation-delay: 1s;
+}
+.page6 .shuxian {
+  width: 0.9%;
+  height: 2.8%;
+  background: url(../images/604@2x.png) no-repeat;
+  background-size: contain;
+  left: 43.9%;
+  top: 34.6%;
+  -webkit-animation-delay: 1s;
+}
+.page6 .jiantou {
+  width: 3.4%;
+  height: 1.3%;
+  background: url(../images/603@2x.png) no-repeat;
+  background-size: contain;
+  left: 42.6%;
+  top: 36%;
+  -webkit-animation-delay: 1s;
+}
+.page6 .taixi {
+  width: 27.5%;
+  height: 5%;
+  background: url(../images/602@2x.png) no-repeat;
+  background-size: contain;
+  left: 59%;
+  top: 35.6%;
+  -webkit-animation-delay: 1.5s;
+}
+.page6 .hezi {
+  width: 66.5%;
+  height: 31%;
+  background: url(../images/614@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 38%;
+  -webkit-animation-delay: 2s;
+}
+.page6 .lfet {
+  width: 65%;
+  height: 7.8%;
+  background: url(../images/609@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 70.9%;
+  -webkit-animation-delay: 2.5s;
+}
+.page6 .qidai {
+  width: 53.9%;
+  height: 6.6%;
+  background: url(../images/610@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 71%;
+  -webkit-animation-delay: 3s;
+}
+.page6 .kuang {
+  width: 54.6%;
+  height: 4%;
+  background: url(../images/608@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 80.4%;
+  -webkit-animation-delay: 3.3s;
+}
+.page6 .fenxiang {
+  width: 47.8%;
+  height: 2.4%;
+  background: url(../images/607@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 81%;
+  -webkit-animation-delay: 3.6s;
+}
+.page6 .yangcong {
+  width: 19.5%;
+  height: 4.9%;
+  background: url(../images/601@2x.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 86%;
+  -webkit-animation-delay: 3.9s;
+}
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translate3d(0, 30px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes move {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 30px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+.move {
+  -webkit-animation-name: move;
+  animation-name: move;
+}
+@keyframes Left {
+  0% {
+    -webkit-transform: translate3d(250px, -30px, 0);
+  }
+  20% {
+    -webkit-transform: translate3d(200px, 0, 0);
+  }
+  40% {
+    -webkit-transform: translate3d(150px, -30px, 0);
+  }
+  60% {
+    -webkit-transform: translate3d(100px, 0, 0);
+  }
+  80% {
+    -webkit-transform: translate3d(50px, -30px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0px, 0, 0);
+  }
+}
+.Left {
+  -webkit-animation-name: Left;
+  animation-name: Left;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-200%, 0, 0);
+    transform: translate3d(-200%, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-200%, 0, 0);
+    transform: translate3d(-200%, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(200%, 0, 0);
+    transform: translate3d(200%, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(200%, 0, 0);
+    transform: translate3d(200%, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+@-webkit-keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+@-webkit-keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+@-webkit-keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+@-webkit-keyframes yangcongIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes yangcongIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.yangcongIn {
+  -webkit-animation-name: yangcongIn;
+  animation-name: yangcongIn;
+}
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+@-webkit-keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -ms-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -ms-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    -ms-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    -ms-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+  100% {
+    -webkit-transform: perspective(400px);
+    -ms-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+.flipInY {
+  -webkit-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY;
+}
+@-webkit-keyframes route {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  10% {
+    -webkit-transform: translate3d(140%, 0, 0);
+  }
+  20% {
+    -webkit-transform: translate3d(140%, 200%, 0);
+  }
+  30% {
+    -webkit-transform: translate3d(-100%, 290%, 0);
+  }
+  40% {
+    -webkit-transform: translate3d(-100%, 490%, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(20%, 470%, 0);
+  }
+  60% {
+    -webkit-transform: translate3d(30%, 510%, 0);
+  }
+  70% {
+    -webkit-transform: translate3d(0, 510%, 0);
+  }
+  80% {
+    -webkit-transform: translate3d(0, 480%, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(60%, 430%, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(60%, 430%, 0);
+  }
+}
+.route {
+  -webkit-animation-name: route;
+  animation-name: route;
+  -webkit-animation-duration: 3s;
+}
